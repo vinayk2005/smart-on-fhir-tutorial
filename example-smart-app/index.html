@@ -68,17 +68,24 @@
     </div> -->
     <!--         START               -->
 
-    <h1> Ankle Osteoarthritis Scale</h1> 
+    <table>
+      <tr>
+        <td width="63%"><h1> Ankle Osteoarthritis Scale </h1></td> <td align="right"><h6> Patient Reported Outcome, reported on Oct, 14, 2022</h6></td>
+      </tr>
+    </table>
+
+    
     <p  style="color:#808080">
-        INSTRUCTIONS: The line next to each item represents the amount of pain <span id="fname"> </span> typically had in each situation. On the far left is “No pain” and on the far right is “The worst pain imaginable.”<br> The number indicates how bad <span id="fname"> </span>'s ankle pain was in each of the following situations during the past week.
+        INSTRUCTIONS: The line next to each item represents the amount of pain <span id="fname"> </span> typically had in each situation. On the far left is “No pain”  and on the <br> far right is “The worst pain imaginable.” The number indicates how bad <span id="fname"> </span>'s ankle pain was in each of the following situations during the past week.
     </p>
 
     <h4>How severe was <span id="fname"> </span> ankle pain:</h4>
     <table border="0">
+       
         <tr>
-            <td width = 40%></td>
-            <td width = 5%>No pain</td>
-            <td width="55%" align="right">The worst pain imaginable</td>
+          <td width = 38%></td>
+          <td width = 9%><b>No pain </b></td>
+          <td width="53%" align="right"><b>The worst pain imaginable</b></td>
         </tr>
         <tr>
             <td><label for="customRange1" class="form-label">1.   At it worst?</label> <b><span id="sevrangeval1"    style="color:rgb(255, 0, 179)" >8</span></b></td>
@@ -98,11 +105,11 @@
         </tr>
         <tr>
             <td><label for="customRange1" class="form-label">5.   When you walked wearing shoes?</label> <b><span id="sevrangeval5"    style="color:rgb(255, 0, 179)" > 5</span></b></td>
-            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="4" onInput="$('#sevrangeval5').html($(this).val())" ></td>
+            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="5" onInput="$('#sevrangeval5').html($(this).val())" ></td>
         </tr>
         <tr>
             <td><label for="customRange1" class="form-label">6.   When you stood wearing shoes?</label> <b><span id="sevrangeval6"    style="color:rgb(255, 0, 179)" > 4</span></b></td>
-            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="3" onInput="$('#sevrangeval6').html($(this).val())" ></td>
+            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="4" onInput="$('#sevrangeval6').html($(this).val())" ></td>
         </tr>
         <tr>
             <td><label for="customRange1" class="form-label">7.   When you walked wearing shoe inserts or braces?</label> <b><span id="sevrangeval7"    style="color:rgb(255, 0, 179)" > 2</span></b></td>
@@ -122,23 +129,26 @@
     </table>
 
     <p  style="color:#808080">
-        INSTRUCTIONS: The line next to each item represents the amount of difficulty you had performing an activity. On the far left is “No difficulty” and on the far right is “So difficult unable.” <br> The number indicates how difficulty <span id="fname"> </span>  had performing each activity because of his/her ankle during the past week.
+        INSTRUCTIONS: The line next to each item represents the amount of difficulty you had performing an activity. On the far left is “No difficulty” and on <br> the far right is “So difficult unable.” The number indicates how difficulty <span id="fname"> </span>  had performing each activity because of his/her ankle during the past week.
     </p>
 
     <h4>How much difficulty <span id="fname"> </span> had:</h4>
+   
     <table border="0">
+      
         <tr>
-            <td width = 40%></td>
-            <td width = 5%>No pain</td>
-            <td width="55%" align="right">So difficult unable</td>
+          <td width = 38%></td>
+          <td width = 9%><b>No difficulty</b></td>
+          <td width="53%" align="right"><b>So difficult unable</b></td>
+        </tr>
+      
+        <tr>
+            <td><label for="customRange1" class="form-label">1.   Walking around the house?</label> <b><span id="diffrangeval1"    style="color:rgb(255, 0, 179)" >4</span></b></td>
+            <td colspan="2"><input type="range"  form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="4" onInput="$('#diffrangeval1').html($(this).val())" ></td>
         </tr>
         <tr>
-            <td><label for="customRange1" class="form-label">1.   Walking around the house?</label> <b><span id="diffrangeval1"    style="color:rgb(255, 0, 179)" >8</span></b></td>
-            <td colspan="2"><input type="range"  form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="8" onInput="$('#diffrangeval1').html($(this).val())" ></td>
-        </tr>
-        <tr>
-            <td><label for="customRange1" class="form-label">2.   Walking outside on uneven ground?</label> <b><span id="diffrangeval2"    style="color:rgb(255, 0, 179)" > 3</span></b></td>
-            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="3" onInput="$('#diffrangeval2').html($(this).val())" ></td>
+            <td><label for="customRange1" class="form-label">2.   Walking outside on uneven ground?</label> <b><span id="diffrangeval2"    style="color:rgb(255, 0, 179)" > 6</span></b></td>
+            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="6" onInput="$('#diffrangeval2').html($(this).val())" ></td>
         </tr>
         <tr>
             <td><label for="customRange1" class="form-label">3.   Walking four blocks or more?</label> <b><span id="diffrangeval3"    style="color:rgb(255, 0, 179)" >8</span></b></td>
@@ -149,25 +159,25 @@
             <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="6" onInput="$('#diffrangeval4').html($(this).val())" ></td>
         </tr>
         <tr>
-            <td><label for="customRange1" class="form-label">5.   Descending stairs?</label> <b><span id="diffrangeval5"    style="color:rgb(255, 0, 179)" > 5</span></b></td>
+            <td><label for="customRange1" class="form-label">5.   Descending stairs?</label> <b><span id="diffrangeval5"    style="color:rgb(255, 0, 179)" > 4</span></b></td>
             <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="4" onInput="$('#diffrangeval5').html($(this).val())" ></td>
         </tr>
         <tr>
-            <td><label for="customRange1" class="form-label">6.   Standing on tip toes?</label> <b><span id="diffrangeval6"    style="color:rgb(255, 0, 179)" > 4</span></b></td>
-            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="3" onInput="$('#diffrangeval6').html($(this).val())" ></td>
+            <td><label for="customRange1" class="form-label">6.   Standing on tip toes?</label> <b><span id="diffrangeval6"    style="color:rgb(255, 0, 179)" > 9</span></b></td>
+            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="9" onInput="$('#diffrangeval6').html($(this).val())" ></td>
         </tr>
         <tr>
             <td><label for="customRange1" class="form-label">7.   Getting out of a chair?</label> <b><span id="diffrangeval7"    style="color:rgb(255, 0, 179)" > 2</span></b></td>
             <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="2" onInput="$('#diffrangeval7').html($(this).val())" ></td>
         </tr>
         <tr>
-            <td><label for="customRange1" class="form-label">8.   Climbing up or down curbs?</label> <b><span id="diffrangeval8"    style="color:rgb(255, 0, 179)" >1</span></b></td>
-            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="1" onInput="$('#diffrangeval8').html($(this).val())" ></td>
+            <td><label for="customRange1" class="form-label">8.   Climbing up or down curbs?</label> <b><span id="diffrangeval8"    style="color:rgb(255, 0, 179)" >3</span></b></td>
+            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="3" onInput="$('#diffrangeval8').html($(this).val())" ></td>
         </tr>
     
         <tr>
-            <td><label for="customRange1" class="form-label">9.   Walking fast or running?</label> <b><span id="diffrangeval9"    style="color:rgb(255, 0, 179)" >4</span></b></td>
-            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="4" onInput="$('#diffrangeval9').html($(this).val())" ></td>
+            <td><label for="customRange1" class="form-label">9.   Walking fast or running?</label> <b><span id="diffrangeval9"    style="color:rgb(255, 0, 179)" >5</span></b></td>
+            <td colspan="2"><input type="range" form-range-track-bg="red" class="form-range" min="0" max="10" id="customRange1" id="formControlRange" step="1" value="5" onInput="$('#diffrangeval9').html($(this).val())" ></td>
         </tr>
     
     
