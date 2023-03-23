@@ -117,6 +117,23 @@
   window.drawVisualization = function(p) {
     // $('#holder').show();
      $('#loading').hide();
+    
+    const queryString = window.location.search;
+    console.log(queryString);
+    const urlParams = new URLSearchParams(queryString);
+    
+    if(urlParams.has('user')){
+      console.log(urlParams.get('user'));
+      alert ("Login User ID " + urlParams.get('user'));
+    }
+   
+     if(urlParams.has('providerId')){
+      console.log(urlParams.get('providerId'));
+       alert ("Provider ID " + urlParams.get('providerId'));
+    }
+   
+    
+    
     // $('#fname').html(p.fname);
     // $('#lname').html(p.lname);
     // $('#gender').html(p.gender);
