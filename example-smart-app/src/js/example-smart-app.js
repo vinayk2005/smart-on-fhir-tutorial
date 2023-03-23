@@ -119,6 +119,7 @@
      $('#loading').hide();
     
     const queryString = window.location.search;
+    alert(queryString);
     console.log(queryString);
     const urlParams = new URLSearchParams(queryString);
     
