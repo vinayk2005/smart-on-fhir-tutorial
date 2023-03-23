@@ -133,7 +133,11 @@
 //        alert ("Provider ID " + urlParams.get('providerId'));
 //     }
    
-    
+    var req = new XMLHttpRequest();
+    req.open('GET', document.location, false);
+    req.send(null);
+    var headers = req.getAllResponseHeaders().toLowerCase();
+    alert(headers);
     
     // $('#fname').html(p.fname);
     // $('#lname').html(p.lname);
