@@ -118,20 +118,20 @@
     // $('#holder').show();
      $('#loading').hide();
     
-    const queryString = window.location.search;
-    alert(queryString);
-    console.log(queryString);
-    const urlParams = new URLSearchParams(queryString);
+//     const queryString = window.location.search;
+//     alert(queryString);
+//     console.log(queryString);
+//     const urlParams = new URLSearchParams(queryString);
     
-    if(urlParams.has('user')){
-      console.log(urlParams.get('user'));
-      alert ("Login User ID " + urlParams.get('user'));
-    }
+//     if(urlParams.has('user')){
+//       console.log(urlParams.get('user'));
+//       alert ("Login User ID " + urlParams.get('user'));
+//     }
    
-     if(urlParams.has('providerId')){
-      console.log(urlParams.get('providerId'));
-       alert ("Provider ID " + urlParams.get('providerId'));
-    }
+//      if(urlParams.has('providerId')){
+//       console.log(urlParams.get('providerId'));
+//        alert ("Provider ID " + urlParams.get('providerId'));
+//     }
    
     
     
